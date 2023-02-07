@@ -36,6 +36,10 @@ COPY composer.json $APP_HOME
 
 # install all PHP dependencies
 RUN composer install --no-interaction
+RUN composer install -d tools --no-interaction
+
+# execute phpstan
+RUN vendor/bin/phpstan
 
 ENV PATH vendor/bin:$PATH
 
