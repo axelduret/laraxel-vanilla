@@ -23,7 +23,7 @@ jobs:
 
     steps:
     - name: Install phpstan
-      run: cd tools/ && composer install
+      run: cd tools && composer install
 
   phpstan-run:
 
