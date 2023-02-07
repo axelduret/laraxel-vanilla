@@ -1,0 +1,20 @@
+{
+  "name": "laraxel/vanilla-tools",
+  "type": "tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Clairveillance",
+      "email": "info@clairveillance.com"
+    }
+  ],
+  "require-dev": {
+    "phpstan/phpstan": "1.9.14"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tools\\": "tools"
+    }
+  },
+  "minimum-stability": "dev"
+}

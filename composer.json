@@ -1,0 +1,20 @@
+{
+  "name": "laraxel/vanilla-php",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Clairveillance",
+      "email": "info@clairveillance.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Domain\\": "src/Domain",
+      "Infrastructure\\": "src/Infrastructure"
+    }
+  },
+  "minimum-stability": "dev"
+}

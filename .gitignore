@@ -1,0 +1,7 @@
+/vendor
+/docker/db/export/**
+/docker/db/import/**
+/tools/vendor
+/tools/composer.lock
+.env
+composer.lock
