@@ -1,4 +1,4 @@
-./github
+.github
 /vendor
 /docker/db/export/**
 /docker/db/import/**
