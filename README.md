@@ -19,7 +19,7 @@ After cloning this repository, move to the root directory and follow these steps
 
 ``docker build .``
 
-``docker compose-up``
+``docker compose up``
 
 ``composer install``
 
