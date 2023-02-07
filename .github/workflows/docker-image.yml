@@ -18,9 +18,5 @@ jobs:
       run: docker build .
       
     - uses: actions/checkout@v3
-    - name: Docker compose up
-      run: docker compose-up
-      
-    - uses: actions/checkout@v3
     - name: Composer Install
       run: composer install
